@@ -1,0 +1,4 @@
+langchain_groq
+groq
+langchain_core
+langchain_community
