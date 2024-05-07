@@ -4,6 +4,9 @@ A simple ChatBot using Groq and LangChain
 ## To run locally 
 ```
 pip install -r requirements.txt
+```
+> after this
+```
 Streamlit run app.py
 ```
 > !! get a API key from groqCloud after registration and add to your .env file
