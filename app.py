@@ -20,12 +20,12 @@ prompt = ChatPromptTemplate.from_messages(
 
 ##Steamlit framework
 
-st.title("Groq Inference Engine Demo using LangChain")
+st.title("Groq Demo using LangChain")
 input_text=st.text_input("Enter your prompt")
 
 #llm
 llm=ChatGroq(groq_proxy=groq_api_key,
-             model_name="mixtral-8x7b-32768")
+             model_name="llama3-70b-8192")
 output_parser=StrOutputParser()
 chain=prompt|llm|output_parser
 
